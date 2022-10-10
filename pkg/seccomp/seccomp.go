@@ -23,7 +23,6 @@ import (
 
 	"github.com/utam0k/gvisor/pkg/abi/linux"
 	"github.com/utam0k/gvisor/pkg/bpf"
-	"github.com/utam0k/gvisor/pkg/log"
 )
 
 const (
@@ -34,60 +33,6 @@ const (
 	defaultLabel = "default_action"
 )
 
-// Install generates BPF code based on the set of syscalls provided. It only
-// allows syscalls that conform to the specification. Syscalls that violate the
-// specification will trigger RET_KILL_PROCESS. If RET_KILL_PROCESS is not
-// supported, violations will trigger RET_TRAP instead. RET_KILL_THREAD is not
-// used because it only kills the offending thread and often keeps the sentry
-// hanging.
-//
-// denyRules describes forbidden syscalls. rules describes allowed syscalls.
-// denyRules is executed before rules.
-//
-// Be aware that RET_TRAP sends SIGSYS to the process and it may be ignored,
-// making it possible for the process to continue running after a violation.
-// However, it will leave a SECCOMP audit event trail behind. In any case, the
-// syscall is still blocked from executing.
-func Install(rules SyscallRules, denyRules SyscallRules) error {
-	defaultAction, err := defaultAction()
-	if err != nil {
-		return err
-	}
-
-	// Uncomment to get stack trace when there is a violation.
-	// defaultAction = linux.BPFAction(linux.SECCOMP_RET_TRAP)
-
-	log.Infof("Installing seccomp filters for %d syscalls (action=%v)", len(rules), defaultAction)
-
-	instrs, err := BuildProgram([]RuleSet{
-		{
-			Rules:  denyRules,
-			Action: defaultAction,
-		},
-		{
-			Rules:  rules,
-			Action: linux.SECCOMP_RET_ALLOW,
-		},
-	}, defaultAction, defaultAction)
-	if log.IsLogging(log.Debug) {
-		programStr, errDecode := bpf.DecodeInstructions(instrs)
-		if errDecode != nil {
-			programStr = fmt.Sprintf("Error: %v\n%s", errDecode, programStr)
-		}
-		log.Debugf("Seccomp program dump:\n%s", programStr)
-	}
-	if err != nil {
-		return err
-	}
-
-	// Perform the actual installation.
-	if err := SetFilter(instrs); err != nil {
-		return fmt.Errorf("failed to set filter: %v", err)
-	}
-
-	log.Infof("Seccomp filters installed.")
-	return nil
-}
 
 func defaultAction() (linux.BPFAction, error) {
 	available, err := isKillProcessAvailable()
@@ -171,7 +116,7 @@ func buildIndex(rules []RuleSet, program *bpf.ProgramBuilder) error {
 		for _, rs := range rules {
 			// Print only if there is a corresponding set of rules.
 			if _, ok := rs.Rules[sysno]; ok {
-				log.Debugf("syscall filter %v: %s => 0x%x", SyscallName(sysno), rs.Rules[sysno], rs.Action)
+                //TODO: logging?
 			}
 		}
 	}

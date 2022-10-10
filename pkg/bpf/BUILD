@@ -20,13 +20,10 @@ go_test(
     size = "small",
     srcs = [
         "decoder_test.go",
-        "interpreter_test.go",
         "program_builder_test.go",
     ],
     library = ":bpf",
     deps = [
         "//pkg/abi/linux",
-        "//pkg/hostarch",
-        "//pkg/marshal",
     ],
 )
