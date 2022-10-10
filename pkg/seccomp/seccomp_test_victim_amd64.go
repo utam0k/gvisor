@@ -18,16 +18,4 @@
 //go:build amd64
 // +build amd64
 
-package main
-
-import (
-	"golang.org/x/sys/unix"
-	"github.com/utam0k/gvisor/pkg/seccomp"
-)
-
-func arch_syscalls(syscalls seccomp.SyscallRules) {
-	syscalls[unix.SYS_ARCH_PRCTL] = []seccomp.Rule{}
-	syscalls[unix.SYS_EPOLL_WAIT] = []seccomp.Rule{}
-	syscalls[unix.SYS_NEWFSTATAT] = []seccomp.Rule{}
-	syscalls[unix.SYS_OPEN] = []seccomp.Rule{}
-}
+package seccomp

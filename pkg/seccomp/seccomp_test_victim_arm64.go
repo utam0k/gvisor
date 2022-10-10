@@ -18,13 +18,5 @@
 //go:build arm64
 // +build arm64
 
-package main
+package seccomp
 
-import (
-	"golang.org/x/sys/unix"
-	"github.com/utam0k/gvisor/pkg/seccomp"
-)
-
-func arch_syscalls(syscalls seccomp.SyscallRules) {
-	syscalls[unix.SYS_FSTATAT] = []seccomp.Rule{}
-}
