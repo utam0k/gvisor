@@ -75,6 +75,3 @@ type RobustListHead struct {
 	FutexOffset   uint64
 	ListOpPending uint64
 }
-
-// SizeOfRobustListHead is the size of a RobustListHead struct.
-var SizeOfRobustListHead = (*RobustListHead)(nil).SizeBytes()
