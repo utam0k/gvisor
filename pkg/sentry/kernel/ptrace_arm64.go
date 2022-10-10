@@ -18,8 +18,8 @@
 package kernel
 
 import (
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/utam0k/gvisor/pkg/errors/linuxerr"
+	"github.com/utam0k/gvisor/pkg/hostarch"
 )
 
 // ptraceArch implements arch-specific ptrace commands.

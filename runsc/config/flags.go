@@ -21,9 +21,9 @@ import (
 	"reflect"
 	"strconv"
 
-	"gvisor.dev/gvisor/pkg/refs"
-	"gvisor.dev/gvisor/pkg/sentry/watchdog"
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/utam0k/gvisor/pkg/refs"
+	"github.com/utam0k/gvisor/pkg/sentry/watchdog"
+	"github.com/utam0k/gvisor/runsc/flag"
 )
 
 // RegisterFlags registers flags used to populate Config.

@@ -18,8 +18,8 @@ import (
 	"errors"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/context"
-	pb "gvisor.dev/gvisor/pkg/sentry/seccheck/points/points_go_proto"
+	"github.com/utam0k/gvisor/pkg/context"
+	pb "github.com/utam0k/gvisor/pkg/sentry/seccheck/points/points_go_proto"
 )
 
 type testSink struct {

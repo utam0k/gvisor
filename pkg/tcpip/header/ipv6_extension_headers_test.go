@@ -21,8 +21,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"gvisor.dev/gvisor/pkg/bufferv2"
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/utam0k/gvisor/pkg/bufferv2"
+	"github.com/utam0k/gvisor/pkg/tcpip"
 )
 
 var (

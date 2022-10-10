@@ -17,9 +17,9 @@ package refsvfs2
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/log"
-	refs_vfs1 "gvisor.dev/gvisor/pkg/refs"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/utam0k/gvisor/pkg/log"
+	refs_vfs1 "github.com/utam0k/gvisor/pkg/refs"
+	"github.com/utam0k/gvisor/pkg/sync"
 )
 
 var (

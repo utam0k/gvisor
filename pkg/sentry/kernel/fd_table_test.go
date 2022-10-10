@@ -18,12 +18,12 @@ import (
 	"runtime"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/sentry/contexttest"
-	"gvisor.dev/gvisor/pkg/sentry/fs"
-	"gvisor.dev/gvisor/pkg/sentry/fs/filetest"
-	"gvisor.dev/gvisor/pkg/sentry/limits"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/sentry/contexttest"
+	"github.com/utam0k/gvisor/pkg/sentry/fs"
+	"github.com/utam0k/gvisor/pkg/sentry/fs/filetest"
+	"github.com/utam0k/gvisor/pkg/sentry/limits"
+	"github.com/utam0k/gvisor/pkg/sync"
 )
 
 const (

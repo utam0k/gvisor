@@ -19,14 +19,14 @@ package network
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/bufferv2"
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
-	"gvisor.dev/gvisor/pkg/tcpip/transport"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/utam0k/gvisor/pkg/atomicbitops"
+	"github.com/utam0k/gvisor/pkg/bufferv2"
+	"github.com/utam0k/gvisor/pkg/sync"
+	"github.com/utam0k/gvisor/pkg/tcpip"
+	"github.com/utam0k/gvisor/pkg/tcpip/header"
+	"github.com/utam0k/gvisor/pkg/tcpip/stack"
+	"github.com/utam0k/gvisor/pkg/tcpip/transport"
+	"github.com/utam0k/gvisor/pkg/waiter"
 )
 
 // Endpoint is a datagram-based endpoint. It only supports sending datagrams to

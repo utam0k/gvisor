@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/sentry/fs"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/sentry/fs"
+	"github.com/utam0k/gvisor/pkg/sync"
 )
 
 // beforeSave is invoked by stateify.

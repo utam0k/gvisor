@@ -18,11 +18,11 @@ import (
 	"fmt"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/safemem"
-	"gvisor.dev/gvisor/pkg/sentry/memmap"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/utam0k/gvisor/pkg/hostarch"
+	"github.com/utam0k/gvisor/pkg/log"
+	"github.com/utam0k/gvisor/pkg/safemem"
+	"github.com/utam0k/gvisor/pkg/sentry/memmap"
+	"github.com/utam0k/gvisor/pkg/sync"
 )
 
 // HostFileMapper caches mappings of an arbitrary host file descriptor. It is

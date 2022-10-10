@@ -19,16 +19,16 @@ import (
 	"io"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/bufferv2"
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/checksum"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/ports"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
-	"gvisor.dev/gvisor/pkg/tcpip/transport"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/internal/network"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/utam0k/gvisor/pkg/bufferv2"
+	"github.com/utam0k/gvisor/pkg/sync"
+	"github.com/utam0k/gvisor/pkg/tcpip"
+	"github.com/utam0k/gvisor/pkg/tcpip/checksum"
+	"github.com/utam0k/gvisor/pkg/tcpip/header"
+	"github.com/utam0k/gvisor/pkg/tcpip/ports"
+	"github.com/utam0k/gvisor/pkg/tcpip/stack"
+	"github.com/utam0k/gvisor/pkg/tcpip/transport"
+	"github.com/utam0k/gvisor/pkg/tcpip/transport/internal/network"
+	"github.com/utam0k/gvisor/pkg/waiter"
 )
 
 // +stateify savable

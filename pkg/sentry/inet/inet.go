@@ -16,9 +16,9 @@
 package inet
 
 import (
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/tcpip"
+	"github.com/utam0k/gvisor/pkg/tcpip/stack"
 )
 
 // Stack represents a TCP/IP stack.

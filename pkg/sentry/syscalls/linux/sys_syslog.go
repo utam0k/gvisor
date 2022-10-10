@@ -15,9 +15,9 @@
 package linux
 
 import (
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
+	"github.com/utam0k/gvisor/pkg/errors/linuxerr"
+	"github.com/utam0k/gvisor/pkg/sentry/arch"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel"
 )
 
 const (

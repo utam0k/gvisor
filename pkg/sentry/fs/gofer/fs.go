@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/p9"
-	"gvisor.dev/gvisor/pkg/sentry/fs"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/p9"
+	"github.com/utam0k/gvisor/pkg/sentry/fs"
 )
 
 // The following are options defined by the Linux 9p client that we support,

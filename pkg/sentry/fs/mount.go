@@ -18,9 +18,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/refs"
+	"github.com/utam0k/gvisor/pkg/atomicbitops"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/refs"
 )
 
 // DirentOperations provide file systems greater control over how long a Dirent

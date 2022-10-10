@@ -15,9 +15,9 @@
 package gofer
 
 import (
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/fd"
-	"gvisor.dev/gvisor/pkg/p9"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/fd"
+	"github.com/utam0k/gvisor/pkg/p9"
 )
 
 // contextFile is a wrapper around p9.File that notifies the context that

@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/sentry/memmap"
+	"github.com/utam0k/gvisor/pkg/hostarch"
+	"github.com/utam0k/gvisor/pkg/sentry/memmap"
 )
 
 func TestDirtySet(t *testing.T) {

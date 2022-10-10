@@ -17,10 +17,10 @@ package tmpfs
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/atomicbitops"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel/auth"
+	"github.com/utam0k/gvisor/pkg/sentry/vfs"
 )
 
 // +stateify savable

@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"io"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/utam0k/gvisor/pkg/tcpip"
+	"github.com/utam0k/gvisor/pkg/tcpip/stack"
+	"github.com/utam0k/gvisor/pkg/waiter"
 )
 
 // endpoint can be created, but all interactions have no effect or

@@ -20,14 +20,14 @@ import (
 	"math"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/checksum"
-	"gvisor.dev/gvisor/pkg/tcpip/hash/jenkins"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/seqnum"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/utam0k/gvisor/pkg/sync"
+	"github.com/utam0k/gvisor/pkg/tcpip"
+	"github.com/utam0k/gvisor/pkg/tcpip/checksum"
+	"github.com/utam0k/gvisor/pkg/tcpip/hash/jenkins"
+	"github.com/utam0k/gvisor/pkg/tcpip/header"
+	"github.com/utam0k/gvisor/pkg/tcpip/seqnum"
+	"github.com/utam0k/gvisor/pkg/tcpip/stack"
+	"github.com/utam0k/gvisor/pkg/waiter"
 )
 
 // InitialRTO is the initial retransmission timeout.

@@ -18,7 +18,7 @@ import (
 	"testing"
 
 	specs "github.com/opencontainers/runtime-spec/specs-go"
-	"gvisor.dev/gvisor/pkg/shim/utils"
+	"github.com/utam0k/gvisor/pkg/shim/utils"
 )
 
 func TestCgroupPath(t *testing.T) {

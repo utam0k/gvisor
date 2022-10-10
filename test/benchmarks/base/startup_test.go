@@ -20,9 +20,9 @@ import (
 	"os"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/test/benchmarks/base"
-	"gvisor.dev/gvisor/test/benchmarks/harness"
+	"github.com/utam0k/gvisor/pkg/test/dockerutil"
+	"github.com/utam0k/gvisor/test/benchmarks/base"
+	"github.com/utam0k/gvisor/test/benchmarks/harness"
 )
 
 // BenchmarkStartEmpty times startup time for an empty container.

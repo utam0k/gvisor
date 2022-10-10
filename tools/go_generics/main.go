@@ -103,7 +103,7 @@ import (
 	"regexp"
 	"strings"
 
-	"gvisor.dev/gvisor/tools/go_generics/globals"
+	"github.com/utam0k/gvisor/tools/go_generics/globals"
 )
 
 var (

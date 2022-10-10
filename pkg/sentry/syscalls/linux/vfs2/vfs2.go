@@ -16,8 +16,8 @@
 package vfs2
 
 import (
-	"gvisor.dev/gvisor/pkg/sentry/syscalls"
-	"gvisor.dev/gvisor/pkg/sentry/syscalls/linux"
+	"github.com/utam0k/gvisor/pkg/sentry/syscalls"
+	"github.com/utam0k/gvisor/pkg/sentry/syscalls/linux"
 )
 
 // Override syscall table to add syscalls implementations from this package.

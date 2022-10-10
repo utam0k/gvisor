@@ -15,10 +15,10 @@
 package vfs
 
 import (
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	fslock "gvisor.dev/gvisor/pkg/sentry/fs/lock"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/errors/linuxerr"
+	fslock "github.com/utam0k/gvisor/pkg/sentry/fs/lock"
 )
 
 // FileLocks supports POSIX and BSD style locks, which correspond to fcntl(2)

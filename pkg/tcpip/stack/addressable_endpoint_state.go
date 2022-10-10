@@ -17,8 +17,8 @@ package stack
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/utam0k/gvisor/pkg/sync"
+	"github.com/utam0k/gvisor/pkg/tcpip"
 )
 
 func (lifetimes *AddressLifetimes) sanitize() {

@@ -15,7 +15,7 @@
 package anon
 
 import (
-	"gvisor.dev/gvisor/pkg/sentry/device"
+	"github.com/utam0k/gvisor/pkg/sentry/device"
 )
 
 // PseudoDevice is the device on which all anonymous inodes reside.

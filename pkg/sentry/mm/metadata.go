@@ -15,10 +15,10 @@
 package mm
 
 import (
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
-	"gvisor.dev/gvisor/pkg/sentry/fsbridge"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/hostarch"
+	"github.com/utam0k/gvisor/pkg/sentry/arch"
+	"github.com/utam0k/gvisor/pkg/sentry/fsbridge"
 )
 
 // Dumpability describes if and how core dumps should be created.

@@ -22,11 +22,11 @@ import (
 
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/syndtr/gocapability/capability"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/runsc/config"
-	"gvisor.dev/gvisor/runsc/container"
-	"gvisor.dev/gvisor/runsc/specutils"
+	"github.com/utam0k/gvisor/pkg/log"
+	"github.com/utam0k/gvisor/pkg/test/testutil"
+	"github.com/utam0k/gvisor/runsc/config"
+	"github.com/utam0k/gvisor/runsc/container"
+	"github.com/utam0k/gvisor/runsc/specutils"
 )
 
 func init() {

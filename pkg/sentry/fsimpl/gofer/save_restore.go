@@ -18,17 +18,17 @@ import (
 	"fmt"
 	"io"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/fdnotifier"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/lisafs"
-	"gvisor.dev/gvisor/pkg/p9"
-	"gvisor.dev/gvisor/pkg/refsvfs2"
-	"gvisor.dev/gvisor/pkg/safemem"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/atomicbitops"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/errors/linuxerr"
+	"github.com/utam0k/gvisor/pkg/fdnotifier"
+	"github.com/utam0k/gvisor/pkg/hostarch"
+	"github.com/utam0k/gvisor/pkg/lisafs"
+	"github.com/utam0k/gvisor/pkg/p9"
+	"github.com/utam0k/gvisor/pkg/refsvfs2"
+	"github.com/utam0k/gvisor/pkg/safemem"
+	"github.com/utam0k/gvisor/pkg/sentry/vfs"
 )
 
 type saveRestoreContextID int

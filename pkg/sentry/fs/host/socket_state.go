@@ -18,7 +18,7 @@ import (
 	"fmt"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/fd"
+	"github.com/utam0k/gvisor/pkg/fd"
 )
 
 // beforeSave is invoked by stateify.

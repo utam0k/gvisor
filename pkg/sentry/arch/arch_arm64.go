@@ -22,11 +22,11 @@ import (
 	"math/rand"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/marshal"
-	"gvisor.dev/gvisor/pkg/marshal/primitive"
-	"gvisor.dev/gvisor/pkg/sentry/arch/fpu"
-	"gvisor.dev/gvisor/pkg/sentry/limits"
+	"github.com/utam0k/gvisor/pkg/hostarch"
+	"github.com/utam0k/gvisor/pkg/marshal"
+	"github.com/utam0k/gvisor/pkg/marshal/primitive"
+	"github.com/utam0k/gvisor/pkg/sentry/arch/fpu"
+	"github.com/utam0k/gvisor/pkg/sentry/limits"
 )
 
 // Host specifies the host architecture.

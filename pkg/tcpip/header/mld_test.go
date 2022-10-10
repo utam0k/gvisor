@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/utam0k/gvisor/pkg/tcpip"
 )
 
 func TestMLD(t *testing.T) {

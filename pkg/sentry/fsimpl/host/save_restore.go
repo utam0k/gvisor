@@ -19,10 +19,10 @@ import (
 	"io"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/fdnotifier"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/safemem"
-	"gvisor.dev/gvisor/pkg/sentry/hostfd"
+	"github.com/utam0k/gvisor/pkg/fdnotifier"
+	"github.com/utam0k/gvisor/pkg/hostarch"
+	"github.com/utam0k/gvisor/pkg/safemem"
+	"github.com/utam0k/gvisor/pkg/sentry/hostfd"
 )
 
 // beforeSave is invoked by stateify.

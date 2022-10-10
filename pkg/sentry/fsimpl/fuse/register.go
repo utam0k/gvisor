@@ -15,10 +15,10 @@
 package fuse
 
 import (
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/sentry/fsimpl/devtmpfs"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/sentry/fsimpl/devtmpfs"
+	"github.com/utam0k/gvisor/pkg/sentry/vfs"
 )
 
 // Register registers the FUSE device with vfsObj.

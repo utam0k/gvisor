@@ -17,16 +17,16 @@ package mm
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
-	"gvisor.dev/gvisor/pkg/sentry/contexttest"
-	"gvisor.dev/gvisor/pkg/sentry/limits"
-	"gvisor.dev/gvisor/pkg/sentry/memmap"
-	"gvisor.dev/gvisor/pkg/sentry/pgalloc"
-	"gvisor.dev/gvisor/pkg/sentry/platform"
-	"gvisor.dev/gvisor/pkg/usermem"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/errors/linuxerr"
+	"github.com/utam0k/gvisor/pkg/hostarch"
+	"github.com/utam0k/gvisor/pkg/sentry/arch"
+	"github.com/utam0k/gvisor/pkg/sentry/contexttest"
+	"github.com/utam0k/gvisor/pkg/sentry/limits"
+	"github.com/utam0k/gvisor/pkg/sentry/memmap"
+	"github.com/utam0k/gvisor/pkg/sentry/pgalloc"
+	"github.com/utam0k/gvisor/pkg/sentry/platform"
+	"github.com/utam0k/gvisor/pkg/usermem"
 )
 
 func testMemoryManager(ctx context.Context) *MemoryManager {

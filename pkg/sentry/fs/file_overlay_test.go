@@ -18,11 +18,11 @@ import (
 	"reflect"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/sentry/fs"
-	"gvisor.dev/gvisor/pkg/sentry/fs/fsutil"
-	"gvisor.dev/gvisor/pkg/sentry/fs/ramfs"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/contexttest"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/sentry/fs"
+	"github.com/utam0k/gvisor/pkg/sentry/fs/fsutil"
+	"github.com/utam0k/gvisor/pkg/sentry/fs/ramfs"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel/contexttest"
 )
 
 func TestReaddir(t *testing.T) {

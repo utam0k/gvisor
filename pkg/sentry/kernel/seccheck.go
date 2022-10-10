@@ -15,8 +15,8 @@
 package kernel
 
 import (
-	"gvisor.dev/gvisor/pkg/sentry/seccheck"
-	pb "gvisor.dev/gvisor/pkg/sentry/seccheck/points/points_go_proto"
+	"github.com/utam0k/gvisor/pkg/sentry/seccheck"
+	pb "github.com/utam0k/gvisor/pkg/sentry/seccheck/points/points_go_proto"
 )
 
 // LoadSeccheckData sets info from the task based on mask.

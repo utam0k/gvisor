@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/hostos"
+	"github.com/utam0k/gvisor/pkg/hostos"
 )
 
 // TestHostFeatureFlags tests that all features detected by HostFeatureSet are

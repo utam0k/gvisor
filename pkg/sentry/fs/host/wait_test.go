@@ -19,8 +19,8 @@ import (
 	"time"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/sentry/contexttest"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/utam0k/gvisor/pkg/sentry/contexttest"
+	"github.com/utam0k/gvisor/pkg/waiter"
 )
 
 func TestWait(t *testing.T) {

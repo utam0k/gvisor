@@ -18,7 +18,7 @@ import (
 	"fmt"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/log"
+	"github.com/utam0k/gvisor/pkg/log"
 )
 
 // SaveInodeMappings saves a mapping of path -> inode ID for every

@@ -21,11 +21,11 @@ import (
 	"io"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/sentry/fs"
-	_ "gvisor.dev/gvisor/pkg/sentry/fs/tmpfs"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/contexttest"
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/usermem"
+	"github.com/utam0k/gvisor/pkg/sentry/fs"
+	_ "github.com/utam0k/gvisor/pkg/sentry/fs/tmpfs"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel/contexttest"
+	"github.com/utam0k/gvisor/pkg/sync"
+	"github.com/utam0k/gvisor/pkg/usermem"
 )
 
 const (

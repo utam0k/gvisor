@@ -24,8 +24,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/sentry/seccheck"
-	"gvisor.dev/gvisor/runsc/boot"
+	"github.com/utam0k/gvisor/pkg/sentry/seccheck"
+	"github.com/utam0k/gvisor/runsc/boot"
 )
 
 // Builder helps with building of trace session configuration.

@@ -14,7 +14,7 @@
 
 package sys
 
-import "gvisor.dev/gvisor/pkg/sentry/device"
+import "github.com/utam0k/gvisor/pkg/sentry/device"
 
 // sysfsDevice is the sysfs virtual device.
 var sysfsDevice = device.NewAnonDevice()

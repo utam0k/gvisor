@@ -17,9 +17,9 @@ package proc
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/sentry/inet"
-	"gvisor.dev/gvisor/pkg/usermem"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/sentry/inet"
+	"github.com/utam0k/gvisor/pkg/usermem"
 )
 
 func TestQuerySendBufferSize(t *testing.T) {

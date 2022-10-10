@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/goid"
-	"gvisor.dev/gvisor/pkg/log"
+	"github.com/utam0k/gvisor/pkg/goid"
+	"github.com/utam0k/gvisor/pkg/log"
 )
 
 var classMap classAtomicPtrMap

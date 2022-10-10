@@ -20,7 +20,7 @@ package tests
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/utam0k/gvisor/pkg/state"
 )
 
 // faker calls itself whatever is in the name field.

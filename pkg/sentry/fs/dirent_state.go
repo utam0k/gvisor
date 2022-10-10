@@ -17,8 +17,8 @@ package fs
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/refs"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/refs"
 )
 
 // beforeSave is invoked by stateify.

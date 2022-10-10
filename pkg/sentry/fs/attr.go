@@ -19,11 +19,11 @@ import (
 	"os"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/p9"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/auth"
-	ktime "gvisor.dev/gvisor/pkg/sentry/kernel/time"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/p9"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel/auth"
+	ktime "github.com/utam0k/gvisor/pkg/sentry/kernel/time"
 )
 
 // InodeType enumerates types of Inodes.

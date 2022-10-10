@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"os"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/seccomp"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
-	"gvisor.dev/gvisor/pkg/sentry/hostmm"
-	"gvisor.dev/gvisor/pkg/sentry/memmap"
-	"gvisor.dev/gvisor/pkg/usermem"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/hostarch"
+	"github.com/utam0k/gvisor/pkg/seccomp"
+	"github.com/utam0k/gvisor/pkg/sentry/arch"
+	"github.com/utam0k/gvisor/pkg/sentry/hostmm"
+	"github.com/utam0k/gvisor/pkg/sentry/memmap"
+	"github.com/utam0k/gvisor/pkg/usermem"
 )
 
 // Platform provides abstractions for execution contexts (Context,

@@ -21,8 +21,8 @@ import (
 	"math"
 	"reflect"
 
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/state/wire"
+	"github.com/utam0k/gvisor/pkg/log"
+	"github.com/utam0k/gvisor/pkg/state/wire"
 )
 
 // internalCallback is a interface called on object completion.

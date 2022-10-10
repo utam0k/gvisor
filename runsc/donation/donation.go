@@ -21,8 +21,8 @@ import (
 	"os"
 	"os/exec"
 
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/runsc/specutils"
+	"github.com/utam0k/gvisor/pkg/log"
+	"github.com/utam0k/gvisor/runsc/specutils"
 )
 
 // LogDonations logs the FDs we are donating in the command.

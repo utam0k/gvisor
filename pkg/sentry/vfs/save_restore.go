@@ -17,9 +17,9 @@ package vfs
 import (
 	"sync/atomic"
 
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/refsvfs2"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/refsvfs2"
+	"github.com/utam0k/gvisor/pkg/waiter"
 )
 
 // ErrCorruption indicates a failed restore due to external file system state in

@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"sort"
 
-	"gvisor.dev/gvisor/pkg/state/wire"
+	"github.com/utam0k/gvisor/pkg/state/wire"
 )
 
 // assertValidType asserts that the type is valid.

@@ -21,15 +21,15 @@ import (
 	"time"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/ring0"
-	"gvisor.dev/gvisor/pkg/ring0/pagetables"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
-	"gvisor.dev/gvisor/pkg/sentry/arch/fpu"
-	"gvisor.dev/gvisor/pkg/sentry/platform"
-	"gvisor.dev/gvisor/pkg/sentry/platform/kvm/testutil"
-	ktime "gvisor.dev/gvisor/pkg/sentry/time"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/hostarch"
+	"github.com/utam0k/gvisor/pkg/ring0"
+	"github.com/utam0k/gvisor/pkg/ring0/pagetables"
+	"github.com/utam0k/gvisor/pkg/sentry/arch"
+	"github.com/utam0k/gvisor/pkg/sentry/arch/fpu"
+	"github.com/utam0k/gvisor/pkg/sentry/platform"
+	"github.com/utam0k/gvisor/pkg/sentry/platform/kvm/testutil"
+	ktime "github.com/utam0k/gvisor/pkg/sentry/time"
 )
 
 var dummyFPState = fpu.NewState()

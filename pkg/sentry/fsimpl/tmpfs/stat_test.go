@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/sentry/contexttest"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/sentry/contexttest"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel/auth"
+	"github.com/utam0k/gvisor/pkg/sentry/vfs"
 )
 
 func TestStatAfterCreate(t *testing.T) {

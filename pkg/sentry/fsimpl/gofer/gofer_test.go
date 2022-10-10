@@ -17,10 +17,10 @@ package gofer
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/p9"
-	"gvisor.dev/gvisor/pkg/sentry/contexttest"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/time"
-	"gvisor.dev/gvisor/pkg/sentry/pgalloc"
+	"github.com/utam0k/gvisor/pkg/p9"
+	"github.com/utam0k/gvisor/pkg/sentry/contexttest"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel/time"
+	"github.com/utam0k/gvisor/pkg/sentry/pgalloc"
 )
 
 func TestDestroyIdempotent(t *testing.T) {

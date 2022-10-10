@@ -21,7 +21,7 @@ import (
 	"io"
 	"os"
 
-	"gvisor.dev/gvisor/tools/nogo/flags"
+	"github.com/utam0k/gvisor/tools/nogo/flags"
 )
 
 // findStdPkg needs to find the bundled standard library packages.

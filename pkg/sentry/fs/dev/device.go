@@ -14,7 +14,7 @@
 
 package dev
 
-import "gvisor.dev/gvisor/pkg/sentry/device"
+import "github.com/utam0k/gvisor/pkg/sentry/device"
 
 // devDevice is the pseudo-filesystem device.
 var devDevice = device.NewAnonDevice()

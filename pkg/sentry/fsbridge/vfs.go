@@ -17,13 +17,13 @@ package fsbridge
 import (
 	"io"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/fspath"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.dev/gvisor/pkg/sentry/memmap"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
-	"gvisor.dev/gvisor/pkg/usermem"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/fspath"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel/auth"
+	"github.com/utam0k/gvisor/pkg/sentry/memmap"
+	"github.com/utam0k/gvisor/pkg/sentry/vfs"
+	"github.com/utam0k/gvisor/pkg/usermem"
 )
 
 // VFSFile implements File interface over vfs.FileDescription.

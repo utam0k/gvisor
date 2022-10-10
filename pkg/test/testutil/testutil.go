@@ -41,11 +41,11 @@ import (
 	"github.com/cenkalti/backoff"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/sentry/watchdog"
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/runsc/config"
-	"gvisor.dev/gvisor/runsc/flag"
-	"gvisor.dev/gvisor/runsc/specutils"
+	"github.com/utam0k/gvisor/pkg/sentry/watchdog"
+	"github.com/utam0k/gvisor/pkg/sync"
+	"github.com/utam0k/gvisor/runsc/config"
+	"github.com/utam0k/gvisor/runsc/flag"
+	"github.com/utam0k/gvisor/runsc/specutils"
 )
 
 var (

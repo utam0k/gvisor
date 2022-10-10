@@ -22,7 +22,7 @@ import (
 	"testing"
 	"unicode"
 
-	"gvisor.dev/gvisor/pkg/sentry/seccheck"
+	"github.com/utam0k/gvisor/pkg/sentry/seccheck"
 )
 
 func findPoint(name string) (seccheck.PointDesc, bool) {

@@ -25,15 +25,15 @@ import (
 	"time"
 
 	"golang.org/x/net/nettest"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/link/loopback"
-	"gvisor.dev/gvisor/pkg/tcpip/network/ipv4"
-	"gvisor.dev/gvisor/pkg/tcpip/network/ipv6"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/tcp"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/udp"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/utam0k/gvisor/pkg/tcpip"
+	"github.com/utam0k/gvisor/pkg/tcpip/header"
+	"github.com/utam0k/gvisor/pkg/tcpip/link/loopback"
+	"github.com/utam0k/gvisor/pkg/tcpip/network/ipv4"
+	"github.com/utam0k/gvisor/pkg/tcpip/network/ipv6"
+	"github.com/utam0k/gvisor/pkg/tcpip/stack"
+	"github.com/utam0k/gvisor/pkg/tcpip/transport/tcp"
+	"github.com/utam0k/gvisor/pkg/tcpip/transport/udp"
+	"github.com/utam0k/gvisor/pkg/waiter"
 )
 
 const (

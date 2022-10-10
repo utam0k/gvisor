@@ -16,10 +16,10 @@ package host
 
 import (
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/sentry/fs"
-	"gvisor.dev/gvisor/pkg/sentry/socket/control"
-	"gvisor.dev/gvisor/pkg/sentry/socket/unix/transport"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/sentry/fs"
+	"github.com/utam0k/gvisor/pkg/sentry/socket/control"
+	"github.com/utam0k/gvisor/pkg/sentry/socket/unix/transport"
 )
 
 // LINT.IfChange

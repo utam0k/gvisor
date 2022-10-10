@@ -39,9 +39,9 @@ import (
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/gcexportdata"
-	"gvisor.dev/gvisor/runsc/flag"
-	"gvisor.dev/gvisor/tools/nogo/facts"
-	"gvisor.dev/gvisor/tools/nogo/flags"
+	"github.com/utam0k/gvisor/runsc/flag"
+	"github.com/utam0k/gvisor/tools/nogo/facts"
+	"github.com/utam0k/gvisor/tools/nogo/flags"
 )
 
 var (

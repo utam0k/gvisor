@@ -15,7 +15,7 @@
 package fs
 
 import (
-	"gvisor.dev/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/context"
 )
 
 // overlayMountSourceOperations implements MountSourceOperations for an overlay

@@ -18,8 +18,8 @@ import (
 	"os"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/refs"
-	"gvisor.dev/gvisor/pkg/refsvfs2"
+	"github.com/utam0k/gvisor/pkg/refs"
+	"github.com/utam0k/gvisor/pkg/refsvfs2"
 )
 
 func TestMain(m *testing.M) {

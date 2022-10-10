@@ -17,16 +17,16 @@ package vfs2
 import (
 	"math"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
-	"gvisor.dev/gvisor/pkg/sentry/fs/lock"
-	"gvisor.dev/gvisor/pkg/sentry/fsimpl/tmpfs"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/fasync"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/pipe"
-	slinux "gvisor.dev/gvisor/pkg/sentry/syscalls/linux"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/errors/linuxerr"
+	"github.com/utam0k/gvisor/pkg/sentry/arch"
+	"github.com/utam0k/gvisor/pkg/sentry/fs/lock"
+	"github.com/utam0k/gvisor/pkg/sentry/fsimpl/tmpfs"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel/fasync"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel/pipe"
+	slinux "github.com/utam0k/gvisor/pkg/sentry/syscalls/linux"
+	"github.com/utam0k/gvisor/pkg/sentry/vfs"
 )
 
 // Close implements Linux syscall close(2).

@@ -16,19 +16,19 @@ package hostinet
 
 import (
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/fdnotifier"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
-	"gvisor.dev/gvisor/pkg/sentry/fsimpl/sockfs"
-	"gvisor.dev/gvisor/pkg/sentry/hostfd"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	"gvisor.dev/gvisor/pkg/sentry/socket"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
-	"gvisor.dev/gvisor/pkg/syserr"
-	"gvisor.dev/gvisor/pkg/usermem"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/errors/linuxerr"
+	"github.com/utam0k/gvisor/pkg/fdnotifier"
+	"github.com/utam0k/gvisor/pkg/sentry/arch"
+	"github.com/utam0k/gvisor/pkg/sentry/fsimpl/sockfs"
+	"github.com/utam0k/gvisor/pkg/sentry/hostfd"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel"
+	"github.com/utam0k/gvisor/pkg/sentry/socket"
+	"github.com/utam0k/gvisor/pkg/sentry/vfs"
+	"github.com/utam0k/gvisor/pkg/syserr"
+	"github.com/utam0k/gvisor/pkg/usermem"
+	"github.com/utam0k/gvisor/pkg/waiter"
 )
 
 // +stateify savable

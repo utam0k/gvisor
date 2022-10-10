@@ -19,7 +19,7 @@ import (
 	"runtime"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/utam0k/gvisor/pkg/sync"
 )
 
 const iterations = 100

@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/state"
-	"gvisor.dev/gvisor/pkg/tcpip/checksum"
+	"github.com/utam0k/gvisor/pkg/state"
+	"github.com/utam0k/gvisor/pkg/tcpip/checksum"
 )
 
 func BenchmarkReadAt(b *testing.B) {

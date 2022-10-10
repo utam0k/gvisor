@@ -19,10 +19,10 @@ package time
 import (
 	"time"
 
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/metric"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/utam0k/gvisor/pkg/errors/linuxerr"
+	"github.com/utam0k/gvisor/pkg/log"
+	"github.com/utam0k/gvisor/pkg/metric"
+	"github.com/utam0k/gvisor/pkg/sync"
 )
 
 // CalibratedClock implements a clock that tracks a reference clock.

@@ -22,7 +22,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/utam0k/gvisor/pkg/hostarch"
 )
 
 type virtualRegion struct {

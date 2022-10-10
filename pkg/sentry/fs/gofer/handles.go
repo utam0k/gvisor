@@ -17,14 +17,14 @@ package gofer
 import (
 	"io"
 
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/fd"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/p9"
-	"gvisor.dev/gvisor/pkg/refs"
-	"gvisor.dev/gvisor/pkg/safemem"
-	"gvisor.dev/gvisor/pkg/secio"
-	"gvisor.dev/gvisor/pkg/sentry/fs"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/fd"
+	"github.com/utam0k/gvisor/pkg/log"
+	"github.com/utam0k/gvisor/pkg/p9"
+	"github.com/utam0k/gvisor/pkg/refs"
+	"github.com/utam0k/gvisor/pkg/safemem"
+	"github.com/utam0k/gvisor/pkg/secio"
+	"github.com/utam0k/gvisor/pkg/sentry/fs"
 )
 
 // handles are the open handles of a gofer file. They are reference counted to

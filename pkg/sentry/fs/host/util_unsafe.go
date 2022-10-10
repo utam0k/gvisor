@@ -18,9 +18,9 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/sentry/fs"
-	ktime "gvisor.dev/gvisor/pkg/sentry/kernel/time"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/sentry/fs"
+	ktime "github.com/utam0k/gvisor/pkg/sentry/kernel/time"
 )
 
 // NulByte is a single NUL byte. It is passed to readlinkat as an empty string.

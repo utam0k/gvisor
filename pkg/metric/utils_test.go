@@ -16,7 +16,7 @@ package metric
 
 import (
 	"google.golang.org/protobuf/proto"
-	"gvisor.dev/gvisor/pkg/eventchannel"
+	"github.com/utam0k/gvisor/pkg/eventchannel"
 )
 
 // sliceEmitter implements eventchannel.Emitter by appending all messages to a

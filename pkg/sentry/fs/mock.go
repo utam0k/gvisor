@@ -15,8 +15,8 @@
 package fs
 
 import (
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/errors/linuxerr"
 )
 
 // MockInodeOperations implements InodeOperations for testing Inodes.

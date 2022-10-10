@@ -21,11 +21,11 @@ import (
 	"fmt"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/procid"
-	"gvisor.dev/gvisor/pkg/seccomp"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/log"
+	"github.com/utam0k/gvisor/pkg/procid"
+	"github.com/utam0k/gvisor/pkg/seccomp"
+	"github.com/utam0k/gvisor/pkg/sentry/arch"
 )
 
 const syscallEvent unix.Signal = 0x80

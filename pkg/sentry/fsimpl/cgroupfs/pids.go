@@ -19,15 +19,15 @@ import (
 	"fmt"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sentry/fsimpl/kernfs"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
-	"gvisor.dev/gvisor/pkg/usermem"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/errors/linuxerr"
+	"github.com/utam0k/gvisor/pkg/hostarch"
+	"github.com/utam0k/gvisor/pkg/log"
+	"github.com/utam0k/gvisor/pkg/sentry/fsimpl/kernfs"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel/auth"
+	"github.com/utam0k/gvisor/pkg/sentry/vfs"
+	"github.com/utam0k/gvisor/pkg/usermem"
 )
 
 // pidMaxLimit is the maximum number of pids allowed on a 64-bit system. The

@@ -23,7 +23,7 @@ package marshal
 import (
 	"io"
 
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/utam0k/gvisor/pkg/hostarch"
 )
 
 // CopyContext defines the memory operations required to marshal to and from

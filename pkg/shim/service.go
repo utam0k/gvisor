@@ -49,14 +49,14 @@ import (
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/cleanup"
-	"gvisor.dev/gvisor/pkg/shim/runtimeoptions/v14"
+	"github.com/utam0k/gvisor/pkg/cleanup"
+	"github.com/utam0k/gvisor/pkg/shim/runtimeoptions/v14"
 
-	"gvisor.dev/gvisor/pkg/shim/proc"
-	"gvisor.dev/gvisor/pkg/shim/runsc"
-	"gvisor.dev/gvisor/pkg/shim/runtimeoptions"
-	"gvisor.dev/gvisor/pkg/shim/utils"
-	"gvisor.dev/gvisor/runsc/specutils"
+	"github.com/utam0k/gvisor/pkg/shim/proc"
+	"github.com/utam0k/gvisor/pkg/shim/runsc"
+	"github.com/utam0k/gvisor/pkg/shim/runtimeoptions"
+	"github.com/utam0k/gvisor/pkg/shim/utils"
+	"github.com/utam0k/gvisor/runsc/specutils"
 )
 
 var (

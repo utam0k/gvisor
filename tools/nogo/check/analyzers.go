@@ -49,12 +49,12 @@ import (
 	"honnef.co/go/tools/staticcheck"
 	"honnef.co/go/tools/stylecheck"
 
-	"gvisor.dev/gvisor/tools/checkaligned"
-	"gvisor.dev/gvisor/tools/checkescape"
-	"gvisor.dev/gvisor/tools/checkinfo"
-	"gvisor.dev/gvisor/tools/checklinkname"
-	"gvisor.dev/gvisor/tools/checklocks"
-	"gvisor.dev/gvisor/tools/checkunsafe"
+	"github.com/utam0k/gvisor/tools/checkaligned"
+	"github.com/utam0k/gvisor/tools/checkescape"
+	"github.com/utam0k/gvisor/tools/checkinfo"
+	"github.com/utam0k/gvisor/tools/checklinkname"
+	"github.com/utam0k/gvisor/tools/checklocks"
+	"github.com/utam0k/gvisor/tools/checkunsafe"
 )
 
 // binaryAnalyzer is a special class of analyzer which supports an additional

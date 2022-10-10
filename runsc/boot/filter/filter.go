@@ -18,9 +18,9 @@
 package filter
 
 import (
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/seccomp"
-	"gvisor.dev/gvisor/pkg/sentry/platform"
+	"github.com/utam0k/gvisor/pkg/log"
+	"github.com/utam0k/gvisor/pkg/seccomp"
+	"github.com/utam0k/gvisor/pkg/sentry/platform"
 )
 
 // Options are seccomp filter related options.

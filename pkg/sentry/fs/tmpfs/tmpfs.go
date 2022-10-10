@@ -18,17 +18,17 @@ package tmpfs
 import (
 	"math"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/sentry/fs"
-	"gvisor.dev/gvisor/pkg/sentry/fs/fsutil"
-	"gvisor.dev/gvisor/pkg/sentry/fs/ramfs"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/pipe"
-	"gvisor.dev/gvisor/pkg/sentry/socket/unix/transport"
-	"gvisor.dev/gvisor/pkg/sentry/usage"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/errors/linuxerr"
+	"github.com/utam0k/gvisor/pkg/hostarch"
+	"github.com/utam0k/gvisor/pkg/sentry/fs"
+	"github.com/utam0k/gvisor/pkg/sentry/fs/fsutil"
+	"github.com/utam0k/gvisor/pkg/sentry/fs/ramfs"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel/pipe"
+	"github.com/utam0k/gvisor/pkg/sentry/socket/unix/transport"
+	"github.com/utam0k/gvisor/pkg/sentry/usage"
 )
 
 var fsInfo = fs.Info{

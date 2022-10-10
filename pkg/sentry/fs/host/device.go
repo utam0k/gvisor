@@ -15,7 +15,7 @@
 package host
 
 import (
-	"gvisor.dev/gvisor/pkg/sentry/device"
+	"github.com/utam0k/gvisor/pkg/sentry/device"
 )
 
 // hostFileDevice is the host file virtual device.

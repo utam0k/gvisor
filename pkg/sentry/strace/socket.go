@@ -18,15 +18,15 @@ import (
 	"fmt"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/abi"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/bits"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/marshal/primitive"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	"gvisor.dev/gvisor/pkg/sentry/socket"
-	"gvisor.dev/gvisor/pkg/sentry/socket/netlink"
-	slinux "gvisor.dev/gvisor/pkg/sentry/syscalls/linux"
+	"github.com/utam0k/gvisor/pkg/abi"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/bits"
+	"github.com/utam0k/gvisor/pkg/hostarch"
+	"github.com/utam0k/gvisor/pkg/marshal/primitive"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel"
+	"github.com/utam0k/gvisor/pkg/sentry/socket"
+	"github.com/utam0k/gvisor/pkg/sentry/socket/netlink"
+	slinux "github.com/utam0k/gvisor/pkg/sentry/syscalls/linux"
 )
 
 // SocketFamily are the possible socket(2) families.

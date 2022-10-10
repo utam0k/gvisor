@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/eventfd"
+	"github.com/utam0k/gvisor/pkg/eventfd"
 )
 
 const (

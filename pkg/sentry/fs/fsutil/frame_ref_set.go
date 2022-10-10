@@ -17,8 +17,8 @@ package fsutil
 import (
 	"math"
 
-	"gvisor.dev/gvisor/pkg/sentry/memmap"
-	"gvisor.dev/gvisor/pkg/sentry/usage"
+	"github.com/utam0k/gvisor/pkg/sentry/memmap"
+	"github.com/utam0k/gvisor/pkg/sentry/usage"
 )
 
 // FrameRefSetFunctions implements segment.Functions for FrameRefSet.

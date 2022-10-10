@@ -29,13 +29,13 @@ import (
 	"fmt"
 	"strconv"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.dev/gvisor/pkg/sentry/seccheck"
-	pb "gvisor.dev/gvisor/pkg/sentry/seccheck/points/points_go_proto"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/errors/linuxerr"
+	"github.com/utam0k/gvisor/pkg/log"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel/auth"
+	"github.com/utam0k/gvisor/pkg/sentry/seccheck"
+	pb "github.com/utam0k/gvisor/pkg/sentry/seccheck/points/points_go_proto"
+	"github.com/utam0k/gvisor/pkg/waiter"
 )
 
 // TaskExitState represents a step in the task exit path.

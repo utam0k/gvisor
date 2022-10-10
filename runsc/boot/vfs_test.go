@@ -18,7 +18,7 @@ import (
 	"testing"
 
 	specs "github.com/opencontainers/runtime-spec/specs-go"
-	"gvisor.dev/gvisor/runsc/config"
+	"github.com/utam0k/gvisor/runsc/config"
 )
 
 func TestGetMountAccessType(t *testing.T) {

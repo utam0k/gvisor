@@ -19,7 +19,7 @@ import (
 	"os"
 	"path"
 
-	"gvisor.dev/gvisor/pkg/fd"
+	"github.com/utam0k/gvisor/pkg/fd"
 )
 
 // PointX represents the checkpoint X.

@@ -15,11 +15,11 @@
 package vfs2
 
 import (
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
-	"gvisor.dev/gvisor/pkg/sentry/fs/lock"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/errors/linuxerr"
+	"github.com/utam0k/gvisor/pkg/sentry/arch"
+	"github.com/utam0k/gvisor/pkg/sentry/fs/lock"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel"
 )
 
 // Flock implements linux syscall flock(2).

@@ -20,16 +20,16 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/memutil"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/auth"
-	ktime "gvisor.dev/gvisor/pkg/sentry/kernel/time"
-	"gvisor.dev/gvisor/pkg/sentry/limits"
-	"gvisor.dev/gvisor/pkg/sentry/pgalloc"
-	"gvisor.dev/gvisor/pkg/sentry/platform"
-	"gvisor.dev/gvisor/pkg/sentry/platform/ptrace"
-	"gvisor.dev/gvisor/pkg/sentry/uniqueid"
+	"github.com/utam0k/gvisor/pkg/atomicbitops"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/memutil"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel/auth"
+	ktime "github.com/utam0k/gvisor/pkg/sentry/kernel/time"
+	"github.com/utam0k/gvisor/pkg/sentry/limits"
+	"github.com/utam0k/gvisor/pkg/sentry/pgalloc"
+	"github.com/utam0k/gvisor/pkg/sentry/platform"
+	"github.com/utam0k/gvisor/pkg/sentry/platform/ptrace"
+	"github.com/utam0k/gvisor/pkg/sentry/uniqueid"
 )
 
 // Context returns a Context that may be used in tests. Uses ptrace as the

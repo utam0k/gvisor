@@ -17,7 +17,7 @@ package proc
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/tcpip/network/ipv4"
+	"github.com/utam0k/gvisor/pkg/tcpip/network/ipv4"
 )
 
 // beforeSave is invoked by stateify.

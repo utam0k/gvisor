@@ -20,10 +20,10 @@ import (
 	"os"
 
 	"github.com/google/subcommands"
-	"gvisor.dev/gvisor/pkg/state/pretty"
-	"gvisor.dev/gvisor/pkg/state/statefile"
-	"gvisor.dev/gvisor/runsc/cmd/util"
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/utam0k/gvisor/pkg/state/pretty"
+	"github.com/utam0k/gvisor/pkg/state/statefile"
+	"github.com/utam0k/gvisor/runsc/cmd/util"
+	"github.com/utam0k/gvisor/runsc/flag"
 )
 
 // Statefile implements subcommands.Command for the "statefile" command.

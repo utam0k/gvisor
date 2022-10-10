@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/abi"
+	"github.com/utam0k/gvisor/pkg/abi"
 )
 
 // Constants for open(2).

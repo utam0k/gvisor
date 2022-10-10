@@ -21,7 +21,7 @@ import (
 	"strings"
 
 	"golang.org/x/tools/go/ssa"
-	"gvisor.dev/gvisor/pkg/atomicbitops"
+	"github.com/utam0k/gvisor/pkg/atomicbitops"
 )
 
 // lockInfo describes a held lock.

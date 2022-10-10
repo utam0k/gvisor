@@ -29,11 +29,11 @@ import (
 
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/test/packetimpact/dut"
-	"gvisor.dev/gvisor/test/packetimpact/dut/linux"
-	"gvisor.dev/gvisor/test/packetimpact/internal/testing"
-	"gvisor.dev/gvisor/test/packetimpact/testbench"
+	"github.com/utam0k/gvisor/pkg/test/testutil"
+	"github.com/utam0k/gvisor/test/packetimpact/dut"
+	"github.com/utam0k/gvisor/test/packetimpact/dut/linux"
+	"github.com/utam0k/gvisor/test/packetimpact/internal/testing"
+	"github.com/utam0k/gvisor/test/packetimpact/testbench"
 )
 
 type runsc struct {

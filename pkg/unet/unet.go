@@ -22,9 +22,9 @@ import (
 	"errors"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/eventfd"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/utam0k/gvisor/pkg/atomicbitops"
+	"github.com/utam0k/gvisor/pkg/eventfd"
+	"github.com/utam0k/gvisor/pkg/sync"
 )
 
 // backlog is used for the listen request.

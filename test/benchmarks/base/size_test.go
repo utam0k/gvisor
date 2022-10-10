@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/test/benchmarks/base"
-	"gvisor.dev/gvisor/test/benchmarks/harness"
-	"gvisor.dev/gvisor/test/benchmarks/tools"
+	"github.com/utam0k/gvisor/pkg/test/dockerutil"
+	"github.com/utam0k/gvisor/test/benchmarks/base"
+	"github.com/utam0k/gvisor/test/benchmarks/harness"
+	"github.com/utam0k/gvisor/test/benchmarks/tools"
 )
 
 // BenchmarkSizeEmpty creates N empty containers and reads memory usage from

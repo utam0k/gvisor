@@ -22,8 +22,8 @@
 package genericfstree
 
 import (
-	"gvisor.dev/gvisor/pkg/fspath"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
+	"github.com/utam0k/gvisor/pkg/fspath"
+	"github.com/utam0k/gvisor/pkg/sentry/vfs"
 )
 
 // Dentry is a required type parameter that is a struct with the given fields.

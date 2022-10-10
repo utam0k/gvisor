@@ -20,8 +20,8 @@ package config
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/refs"
-	"gvisor.dev/gvisor/pkg/sentry/watchdog"
+	"github.com/utam0k/gvisor/pkg/refs"
+	"github.com/utam0k/gvisor/pkg/sentry/watchdog"
 )
 
 // Config holds configuration that is not part of the runtime spec.

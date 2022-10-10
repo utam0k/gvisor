@@ -22,8 +22,8 @@ import (
 	"testing"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/test/packetimpact/testbench"
+	"github.com/utam0k/gvisor/pkg/tcpip"
+	"github.com/utam0k/gvisor/test/packetimpact/testbench"
 )
 
 var oneSecond = unix.Timeval{Sec: 1, Usec: 0}

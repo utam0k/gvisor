@@ -27,9 +27,9 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/bpf"
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/bpf"
+	"github.com/utam0k/gvisor/pkg/hostarch"
 )
 
 // newVictim makes a victim binary.

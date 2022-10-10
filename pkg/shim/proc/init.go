@@ -36,7 +36,7 @@ import (
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/sys/unix"
 
-	"gvisor.dev/gvisor/pkg/shim/runsc"
+	"github.com/utam0k/gvisor/pkg/shim/runsc"
 )
 
 const statusStopped = "stopped"

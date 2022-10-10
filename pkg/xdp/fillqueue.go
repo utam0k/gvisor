@@ -20,7 +20,7 @@ package xdp
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
+	"github.com/utam0k/gvisor/pkg/atomicbitops"
 )
 
 // The FillQueue is how a process tells the kernel which buffers are available

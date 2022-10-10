@@ -16,10 +16,10 @@ package gofer
 
 import (
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/p9"
-	"gvisor.dev/gvisor/pkg/sentry/fs"
-	ktime "gvisor.dev/gvisor/pkg/sentry/kernel/time"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/p9"
+	"github.com/utam0k/gvisor/pkg/sentry/fs"
+	ktime "github.com/utam0k/gvisor/pkg/sentry/kernel/time"
 )
 
 func utimes(ctx context.Context, file contextFile, ts fs.TimeSpec) error {

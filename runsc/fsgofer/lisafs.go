@@ -23,13 +23,13 @@ import (
 	"strconv"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/cleanup"
-	rwfd "gvisor.dev/gvisor/pkg/fd"
-	"gvisor.dev/gvisor/pkg/lisafs"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/marshal/primitive"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/atomicbitops"
+	"github.com/utam0k/gvisor/pkg/cleanup"
+	rwfd "github.com/utam0k/gvisor/pkg/fd"
+	"github.com/utam0k/gvisor/pkg/lisafs"
+	"github.com/utam0k/gvisor/pkg/log"
+	"github.com/utam0k/gvisor/pkg/marshal/primitive"
 )
 
 // LisafsServer implements lisafs.ServerImpl for fsgofer.

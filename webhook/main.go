@@ -16,7 +16,7 @@
 package main
 
 import (
-	"gvisor.dev/gvisor/webhook/pkg/cli"
+	"github.com/utam0k/gvisor/webhook/pkg/cli"
 )
 
 func main() {

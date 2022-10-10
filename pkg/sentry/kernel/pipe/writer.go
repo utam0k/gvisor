@@ -15,8 +15,8 @@
 package pipe
 
 import (
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/waiter"
 )
 
 // Writer satisfies the fs.FileOperations interface for write-only pipes.

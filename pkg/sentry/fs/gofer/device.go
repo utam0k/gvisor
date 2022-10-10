@@ -14,7 +14,7 @@
 
 package gofer
 
-import "gvisor.dev/gvisor/pkg/sentry/device"
+import "github.com/utam0k/gvisor/pkg/sentry/device"
 
 // goferDevice is the gofer virtual device.
 var goferDevice = device.NewAnonMultiDevice()

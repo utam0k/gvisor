@@ -21,7 +21,7 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/syserr"
+	"github.com/utam0k/gvisor/pkg/syserr"
 )
 
 func statAt(dirFd int, name string) (unix.Stat_t, error) {

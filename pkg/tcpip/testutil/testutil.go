@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/utam0k/gvisor/pkg/tcpip"
 )
 
 // MustParse4 parses an IPv4 string (e.g. "192.168.1.1") into a tcpip.Address.

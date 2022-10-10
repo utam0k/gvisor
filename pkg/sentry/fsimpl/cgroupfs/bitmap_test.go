@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/bitmap"
+	"github.com/utam0k/gvisor/pkg/bitmap"
 )
 
 func TestFormat(t *testing.T) {

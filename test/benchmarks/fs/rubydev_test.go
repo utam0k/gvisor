@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"gvisor.dev/gvisor/test/benchmarks/fs/fsbench"
-	"gvisor.dev/gvisor/test/benchmarks/harness"
+	"github.com/utam0k/gvisor/test/benchmarks/fs/fsbench"
+	"github.com/utam0k/gvisor/test/benchmarks/harness"
 )
 
 func runRubyBenchmark(b *testing.B, bm fsbench.FSBenchmark, cleanupDirPatterns []string) {

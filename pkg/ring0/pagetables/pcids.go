@@ -15,7 +15,7 @@
 package pagetables
 
 import (
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/utam0k/gvisor/pkg/sync"
 )
 
 // PCIDs is a simple PCID database.

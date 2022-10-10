@@ -36,7 +36,7 @@ import (
 	"github.com/docker/docker/client"
 	"github.com/docker/docker/pkg/stdcopy"
 	"github.com/docker/go-connections/nat"
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/utam0k/gvisor/pkg/test/testutil"
 )
 
 // Container represents a Docker Container allowing

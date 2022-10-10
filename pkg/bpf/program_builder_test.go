@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
 )
 
 func validate(p *ProgramBuilder, expected []linux.BPFInstruction) error {

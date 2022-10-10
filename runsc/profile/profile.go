@@ -21,9 +21,9 @@ import (
 	"runtime/pprof"
 	"runtime/trace"
 
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sentry/control"
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/utam0k/gvisor/pkg/log"
+	"github.com/utam0k/gvisor/pkg/sentry/control"
+	"github.com/utam0k/gvisor/runsc/flag"
 )
 
 // Kind is the kind of profiling to perform.

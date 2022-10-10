@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
+	"github.com/utam0k/gvisor/pkg/test/dockerutil"
 )
 
 var (

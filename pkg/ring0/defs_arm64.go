@@ -18,7 +18,7 @@
 package ring0
 
 import (
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/utam0k/gvisor/pkg/hostarch"
 )
 
 const (

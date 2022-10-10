@@ -16,5 +16,5 @@ package ring0
 
 import (
 	// Used for template generation.
-	_ "gvisor.dev/gvisor/pkg/abi/linux"
+	_ "github.com/utam0k/gvisor/pkg/abi/linux"
 )

@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
+	"github.com/utam0k/gvisor/pkg/atomicbitops"
 )
 
 // ZeroWakerNotAsserted tests that a zero-value waker is in non-asserted state.

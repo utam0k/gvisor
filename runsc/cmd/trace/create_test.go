@@ -21,9 +21,9 @@ import (
 	"strings"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/sentry/seccheck"
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/runsc/boot"
+	"github.com/utam0k/gvisor/pkg/sentry/seccheck"
+	"github.com/utam0k/gvisor/pkg/test/testutil"
+	"github.com/utam0k/gvisor/runsc/boot"
 )
 
 func TestConfigFile(t *testing.T) {

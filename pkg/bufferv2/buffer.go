@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io"
 
-	"gvisor.dev/gvisor/pkg/tcpip/checksum"
+	"github.com/utam0k/gvisor/pkg/tcpip/checksum"
 )
 
 // Buffer is a non-linear buffer.

@@ -17,8 +17,8 @@ package bufferv2
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/bits"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/utam0k/gvisor/pkg/bits"
+	"github.com/utam0k/gvisor/pkg/sync"
 )
 
 // PoolingEnabled is set to true when pooling is enabled. Added as a

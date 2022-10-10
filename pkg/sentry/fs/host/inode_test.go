@@ -18,7 +18,7 @@ import (
 	"testing"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/sentry/contexttest"
+	"github.com/utam0k/gvisor/pkg/sentry/contexttest"
 )
 
 // TestCloseFD verifies fds will be closed.

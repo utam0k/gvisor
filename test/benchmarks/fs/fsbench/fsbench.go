@@ -21,10 +21,10 @@ import (
 	"strings"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/cleanup"
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/test/benchmarks/harness"
-	"gvisor.dev/gvisor/test/benchmarks/tools"
+	"github.com/utam0k/gvisor/pkg/cleanup"
+	"github.com/utam0k/gvisor/pkg/test/dockerutil"
+	"github.com/utam0k/gvisor/test/benchmarks/harness"
+	"github.com/utam0k/gvisor/test/benchmarks/tools"
 )
 
 // FSBenchmark represents a set of work to perform within a container that is instrumented with

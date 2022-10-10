@@ -17,7 +17,7 @@ package fs
 import (
 	"sort"
 
-	"gvisor.dev/gvisor/pkg/sentry/device"
+	"github.com/utam0k/gvisor/pkg/sentry/device"
 )
 
 // DentAttr is the metadata of a directory entry. It is a subset of StableAttr.

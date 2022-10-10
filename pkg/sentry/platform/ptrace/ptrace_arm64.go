@@ -15,10 +15,10 @@
 package ptrace
 
 import (
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	pkgcontext "gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/cpuid"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	pkgcontext "github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/cpuid"
+	"github.com/utam0k/gvisor/pkg/sentry/arch"
 )
 
 // archContext is architecture-specific context.

@@ -17,7 +17,7 @@ package ip
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/utam0k/gvisor/pkg/tcpip"
 )
 
 // ForwardingError represents an error that occured while trying to forward

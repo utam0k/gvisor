@@ -17,10 +17,10 @@ package lisafs_test
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/lisafs"
-	"gvisor.dev/gvisor/pkg/lisafs/testsuite"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/runsc/fsgofer"
+	"github.com/utam0k/gvisor/pkg/lisafs"
+	"github.com/utam0k/gvisor/pkg/lisafs/testsuite"
+	"github.com/utam0k/gvisor/pkg/log"
+	"github.com/utam0k/gvisor/runsc/fsgofer"
 )
 
 // Note that these are not supposed to be extensive or robust tests. These unit

@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"gvisor.dev/gvisor/tools/nogo/check"
+	"github.com/utam0k/gvisor/tools/nogo/check"
 )
 
 // GroupName is a named group.

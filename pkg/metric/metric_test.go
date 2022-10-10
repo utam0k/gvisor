@@ -22,8 +22,8 @@ import (
 	"time"
 
 	"google.golang.org/protobuf/proto"
-	pb "gvisor.dev/gvisor/pkg/metric/metric_go_proto"
-	"gvisor.dev/gvisor/pkg/sync"
+	pb "github.com/utam0k/gvisor/pkg/metric/metric_go_proto"
+	"github.com/utam0k/gvisor/pkg/sync"
 )
 
 const (

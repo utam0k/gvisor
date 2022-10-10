@@ -17,7 +17,7 @@
 
 package cpuid
 
-import "gvisor.dev/gvisor/pkg/hostos"
+import "github.com/utam0k/gvisor/pkg/hostos"
 
 func archSkipFeature(feature Feature, version hostos.Version) bool {
 	switch {

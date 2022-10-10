@@ -18,8 +18,8 @@ import (
 	"testing"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/sentry/contexttest"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/sentry/contexttest"
 )
 
 func newMockDirInode(ctx context.Context, cache *DirentCache) *Inode {

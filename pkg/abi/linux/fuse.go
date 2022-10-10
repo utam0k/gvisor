@@ -15,7 +15,7 @@
 package linux
 
 import (
-	"gvisor.dev/gvisor/pkg/marshal/primitive"
+	"github.com/utam0k/gvisor/pkg/marshal/primitive"
 )
 
 // FUSEOpcode is a FUSE operation code.

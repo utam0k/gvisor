@@ -15,7 +15,7 @@
 package overlay
 
 import (
-	"gvisor.dev/gvisor/pkg/refsvfs2"
+	"github.com/utam0k/gvisor/pkg/refsvfs2"
 )
 
 func (d *dentry) afterLoad() {

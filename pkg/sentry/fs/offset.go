@@ -17,7 +17,7 @@ package fs
 import (
 	"math"
 
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/utam0k/gvisor/pkg/hostarch"
 )
 
 // OffsetPageEnd returns the file offset rounded up to the nearest

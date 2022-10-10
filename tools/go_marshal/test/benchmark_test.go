@@ -21,10 +21,10 @@ import (
 	"reflect"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/binary"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/tools/go_marshal/analysis"
-	"gvisor.dev/gvisor/tools/go_marshal/test"
+	"github.com/utam0k/gvisor/pkg/binary"
+	"github.com/utam0k/gvisor/pkg/hostarch"
+	"github.com/utam0k/gvisor/tools/go_marshal/analysis"
+	"github.com/utam0k/gvisor/tools/go_marshal/test"
 )
 
 // Marshalling using the standard encoding/binary package.

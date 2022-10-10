@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/sentry/contexttest"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/sentry/contexttest"
 )
 
 // cacheReallyContains iterates through the dirent cache to determine whether

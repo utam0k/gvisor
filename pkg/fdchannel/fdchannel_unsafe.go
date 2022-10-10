@@ -24,7 +24,7 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/gohacks"
+	"github.com/utam0k/gvisor/pkg/gohacks"
 )
 
 // int32 is the real type of a file descriptor.

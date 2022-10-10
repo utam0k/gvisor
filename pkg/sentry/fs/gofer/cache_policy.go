@@ -17,8 +17,8 @@ package gofer
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/sentry/fs"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/sentry/fs"
 )
 
 // cachePolicy is a 9p cache policy. It has methods that determine what to

@@ -16,7 +16,7 @@
 package main
 
 import (
-	"gvisor.dev/gvisor/shim/cli"
+	"github.com/utam0k/gvisor/shim/cli"
 )
 
 func main() {

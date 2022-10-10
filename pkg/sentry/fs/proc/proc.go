@@ -20,14 +20,14 @@ import (
 	"sort"
 	"strconv"
 
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/sentry/fs"
-	"gvisor.dev/gvisor/pkg/sentry/fs/fsutil"
-	"gvisor.dev/gvisor/pkg/sentry/fs/proc/device"
-	"gvisor.dev/gvisor/pkg/sentry/fs/proc/seqfile"
-	"gvisor.dev/gvisor/pkg/sentry/fs/ramfs"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/errors/linuxerr"
+	"github.com/utam0k/gvisor/pkg/sentry/fs"
+	"github.com/utam0k/gvisor/pkg/sentry/fs/fsutil"
+	"github.com/utam0k/gvisor/pkg/sentry/fs/proc/device"
+	"github.com/utam0k/gvisor/pkg/sentry/fs/proc/seqfile"
+	"github.com/utam0k/gvisor/pkg/sentry/fs/ramfs"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel"
 )
 
 // LINT.IfChange

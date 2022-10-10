@@ -18,8 +18,8 @@ import (
 	"errors"
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/eventchannel"
-	"gvisor.dev/gvisor/pkg/urpc"
+	"github.com/utam0k/gvisor/pkg/eventchannel"
+	"github.com/utam0k/gvisor/pkg/urpc"
 )
 
 // EventsOpts are the arguments for eventchannel-related commands.

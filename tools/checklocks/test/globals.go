@@ -17,7 +17,7 @@ package test
 import (
 	"sync"
 
-	"gvisor.dev/gvisor/tools/checklocks/test/crosspkg"
+	"github.com/utam0k/gvisor/tools/checklocks/test/crosspkg"
 )
 
 var (

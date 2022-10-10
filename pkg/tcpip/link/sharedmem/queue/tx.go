@@ -17,9 +17,9 @@ package queue
 import (
 	"encoding/binary"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/tcpip/link/sharedmem/pipe"
+	"github.com/utam0k/gvisor/pkg/atomicbitops"
+	"github.com/utam0k/gvisor/pkg/log"
+	"github.com/utam0k/gvisor/pkg/tcpip/link/sharedmem/pipe"
 )
 
 const (

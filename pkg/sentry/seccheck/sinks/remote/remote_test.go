@@ -28,12 +28,12 @@ import (
 	"github.com/cenkalti/backoff"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
-	"gvisor.dev/gvisor/pkg/fd"
-	"gvisor.dev/gvisor/pkg/sentry/seccheck"
-	pb "gvisor.dev/gvisor/pkg/sentry/seccheck/points/points_go_proto"
-	"gvisor.dev/gvisor/pkg/sentry/seccheck/sinks/remote/test"
-	"gvisor.dev/gvisor/pkg/sentry/seccheck/sinks/remote/wire"
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/utam0k/gvisor/pkg/fd"
+	"github.com/utam0k/gvisor/pkg/sentry/seccheck"
+	pb "github.com/utam0k/gvisor/pkg/sentry/seccheck/points/points_go_proto"
+	"github.com/utam0k/gvisor/pkg/sentry/seccheck/sinks/remote/test"
+	"github.com/utam0k/gvisor/pkg/sentry/seccheck/sinks/remote/wire"
+	"github.com/utam0k/gvisor/pkg/test/testutil"
 )
 
 func waitForFile(path string) error {

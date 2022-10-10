@@ -65,14 +65,14 @@ package kernel
 // """
 
 import (
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/sentry/fs"
-	"gvisor.dev/gvisor/pkg/sentry/fsbridge"
-	"gvisor.dev/gvisor/pkg/sentry/mm"
-	"gvisor.dev/gvisor/pkg/sentry/seccheck"
-	pb "gvisor.dev/gvisor/pkg/sentry/seccheck/points/points_go_proto"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/errors/linuxerr"
+	"github.com/utam0k/gvisor/pkg/sentry/fs"
+	"github.com/utam0k/gvisor/pkg/sentry/fsbridge"
+	"github.com/utam0k/gvisor/pkg/sentry/mm"
+	"github.com/utam0k/gvisor/pkg/sentry/seccheck"
+	pb "github.com/utam0k/gvisor/pkg/sentry/seccheck/points/points_go_proto"
+	"github.com/utam0k/gvisor/pkg/sentry/vfs"
 )
 
 // execStop is a TaskStop that a task sets on itself when it wants to execve

@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/runsc/cgroup"
+	"github.com/utam0k/gvisor/pkg/test/dockerutil"
+	"github.com/utam0k/gvisor/pkg/test/testutil"
+	"github.com/utam0k/gvisor/runsc/cgroup"
 )
 
 // procPath returns a path in procfs. This is usually just `/proc + path components`, but may be

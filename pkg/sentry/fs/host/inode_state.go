@@ -18,8 +18,8 @@ import (
 	"fmt"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/sentry/device"
-	"gvisor.dev/gvisor/pkg/sentry/fs"
+	"github.com/utam0k/gvisor/pkg/sentry/device"
+	"github.com/utam0k/gvisor/pkg/sentry/fs"
 )
 
 // afterLoad is invoked by stateify.

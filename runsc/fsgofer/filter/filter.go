@@ -18,8 +18,8 @@
 package filter
 
 import (
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/seccomp"
+	"github.com/utam0k/gvisor/pkg/log"
+	"github.com/utam0k/gvisor/pkg/seccomp"
 )
 
 // Options are seccomp filter related options.

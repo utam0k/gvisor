@@ -32,7 +32,7 @@ import (
 	"github.com/cilium/ebpf/link"
 	"github.com/google/subcommands"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/utam0k/gvisor/runsc/flag"
 )
 
 func main() {

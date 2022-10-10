@@ -15,12 +15,12 @@
 package vfs2
 
 import (
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
-	"gvisor.dev/gvisor/pkg/sentry/fsimpl/timerfd"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	ktime "gvisor.dev/gvisor/pkg/sentry/kernel/time"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/errors/linuxerr"
+	"github.com/utam0k/gvisor/pkg/sentry/arch"
+	"github.com/utam0k/gvisor/pkg/sentry/fsimpl/timerfd"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel"
+	ktime "github.com/utam0k/gvisor/pkg/sentry/kernel/time"
 )
 
 // TimerfdCreate implements Linux syscall timerfd_create(2).

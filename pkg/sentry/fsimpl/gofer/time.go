@@ -15,8 +15,8 @@
 package gofer
 
 import (
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	"github.com/utam0k/gvisor/pkg/sentry/vfs"
 )
 
 func dentryTimestampFromP9(s, ns uint64) int64 {

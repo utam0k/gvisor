@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/utam0k/gvisor/pkg/sync"
 )
 
 func TestConsistencyWithGoMap(t *testing.T) {

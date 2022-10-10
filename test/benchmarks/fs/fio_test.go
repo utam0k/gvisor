@@ -21,10 +21,10 @@ import (
 	"strings"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/cleanup"
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/test/benchmarks/harness"
-	"gvisor.dev/gvisor/test/benchmarks/tools"
+	"github.com/utam0k/gvisor/pkg/cleanup"
+	"github.com/utam0k/gvisor/pkg/test/dockerutil"
+	"github.com/utam0k/gvisor/test/benchmarks/harness"
+	"github.com/utam0k/gvisor/test/benchmarks/tools"
 )
 
 // BenchmarkFio runs fio on the runtime under test. There are 4 basic test

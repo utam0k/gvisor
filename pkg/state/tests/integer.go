@@ -15,7 +15,7 @@
 package tests
 
 import (
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/utam0k/gvisor/pkg/state"
 )
 
 // +stateify type

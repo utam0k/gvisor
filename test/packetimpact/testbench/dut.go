@@ -25,10 +25,10 @@ import (
 	"golang.org/x/sys/unix"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	bin "gvisor.dev/gvisor/pkg/binary"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	pb "gvisor.dev/gvisor/test/packetimpact/proto/posix_server_go_proto"
+	"github.com/utam0k/gvisor/pkg/abi/linux"
+	bin "github.com/utam0k/gvisor/pkg/binary"
+	"github.com/utam0k/gvisor/pkg/hostarch"
+	pb "github.com/utam0k/gvisor/test/packetimpact/proto/posix_server_go_proto"
 )
 
 // DUT communicates with the DUT to force it to make POSIX calls.

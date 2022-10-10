@@ -17,7 +17,7 @@ package kernel
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/sentry/kernel/sched"
+	"github.com/utam0k/gvisor/pkg/sentry/kernel/sched"
 )
 
 func TestTaskCPU(t *testing.T) {

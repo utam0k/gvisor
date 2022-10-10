@@ -15,7 +15,7 @@
 package fs
 
 import (
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/utam0k/gvisor/pkg/sync"
 )
 
 // RestoreEnvironment is the restore environment for file systems. It consists

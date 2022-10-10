@@ -16,7 +16,7 @@
 package test2
 
 import (
-	"gvisor.dev/gvisor/tools/checkescape/test1"
+	"github.com/utam0k/gvisor/tools/checkescape/test1"
 )
 
 // +checkescape:all

@@ -25,7 +25,7 @@ import (
 	"time"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/test/runtimes/proctor/lib"
+	"github.com/utam0k/gvisor/test/runtimes/proctor/lib"
 )
 
 var (

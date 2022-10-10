@@ -18,7 +18,7 @@ import (
 	"testing"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/unet"
+	"github.com/utam0k/gvisor/pkg/unet"
 )
 
 // TestVersion tests the version negotiation.

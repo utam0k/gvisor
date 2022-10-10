@@ -19,8 +19,8 @@ import (
 	"sort"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/utam0k/gvisor/pkg/context"
+	"github.com/utam0k/gvisor/pkg/sync"
 )
 
 // FilesystemFlags matches include/linux/fs.h:file_system_type.fs_flags.

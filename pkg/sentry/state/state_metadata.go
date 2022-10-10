@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/log"
+	"github.com/utam0k/gvisor/pkg/log"
 )
 
 // The save metadata keys for timestamp.

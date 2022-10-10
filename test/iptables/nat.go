@@ -22,8 +22,8 @@ import (
 	"strconv"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/binary"
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/utam0k/gvisor/pkg/binary"
+	"github.com/utam0k/gvisor/pkg/hostarch"
 )
 
 const redirectPort = 42
